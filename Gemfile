@@ -32,11 +32,12 @@ gem 'rubocop', '~> 0.60.0'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
-  gem "rspec-rails", "~> 3.8"
+  # BDD for Ruby
+  gem 'rspec-rails', '~> 3.8'
   # factory_bot_rails provides integration between factory_bot and rails 3 or newer (currently just automatic factory definition loading)
   gem 'factory_bot_rails', '~> 4.11', '>= 4.11.1'
   # Faker, a port of Data::Faker from Perl, is used to easily generate fake data: names, addresses, phone numbers, etc.
-  gem "faker", "~> 1.9", ">= 1.9.1"
+  gem 'faker', '~> 1.9', '>= 1.9.1'
 end
 
 group :development do
