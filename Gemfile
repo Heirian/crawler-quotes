@@ -33,6 +33,8 @@ group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   gem "rspec-rails", "~> 3.8"
+  # factory_bot_rails provides integration between factory_bot and rails 3 or newer (currently just automatic factory definition loading)
+  gem 'factory_bot_rails', '~> 4.11', '>= 4.11.1'
 end
 
 group :development do
