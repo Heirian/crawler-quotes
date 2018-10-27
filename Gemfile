@@ -23,9 +23,21 @@ gem 'bootsnap', '>= 1.1.0', require: false
 # Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin AJAX possible
 # gem 'rack-cors'
 
+# Mongoid is an ODM (Object Document Mapper) Framework for MongoDB, written in Ruby
+gem 'mongoid', '~> 7.0'
+
+# Automatic Ruby code style checking tool. Aims to enforce the community-driven Ruby Style Guide.
+gem 'rubocop', '~> 0.60.0'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+  # BDD for Ruby
+  gem 'rspec-rails', '~> 3.8'
+  # factory_bot_rails provides integration between factory_bot and rails 3 or newer (currently just automatic factory definition loading)
+  gem 'factory_bot_rails', '~> 4.11', '>= 4.11.1'
+  # Faker, a port of Data::Faker from Perl, is used to easily generate fake data: names, addresses, phone numbers, etc.
+  gem 'faker', '~> 1.9', '>= 1.9.1'
 end
 
 group :development do
