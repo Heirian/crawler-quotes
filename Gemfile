@@ -24,7 +24,8 @@ gem 'bootsnap', '>= 1.1.0', require: false
 gem 'rack-cors', '~> 1.0', '>= 1.0.2'
 # Authentication solution for Rails based on JWT
 gem 'knock', '~> 2.1', '>= 2.1.1'
-
+# A pure ruby implementation of the RFC 7519 OAuth JSON Web Token (JWT) standard.
+gem 'jwt', '~> 1.5.6'
 # Mongoid is an ODM (Object Document Mapper) Framework for MongoDB, written in Ruby
 gem 'mongoid', '~> 7.0'
 
