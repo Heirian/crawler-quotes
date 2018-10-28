@@ -22,6 +22,8 @@ gem 'bootsnap', '>= 1.1.0', require: false
 
 # Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin AJAX possible
 gem 'rack-cors', '~> 1.0', '>= 1.0.2'
+# Authentication solution for Rails based on JWT
+gem 'knock', '~> 2.1', '>= 2.1.1'
 
 # Mongoid is an ODM (Object Document Mapper) Framework for MongoDB, written in Ruby
 gem 'mongoid', '~> 7.0'
