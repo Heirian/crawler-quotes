@@ -10,6 +10,7 @@ RSpec.describe User, type: :model do
   it { is_expected.to have_field(:password_digest).of_type(String) }
   it { is_expected.to validate_presence_of(:email) }
   it { is_expected.to validate_uniqueness_of(:email).case_insensitive }
+  it { is_expected.to validate_length_of(:email).with_maximum(255) }
   it do
     is_expected.to validate_format_of(:email)
       .with_format(User::VALID_EMAIL_REGEX)
