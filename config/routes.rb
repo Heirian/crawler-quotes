@@ -1,4 +1,8 @@
+# frozen_string_literal: true
+
 Rails.application.routes.draw do
+  root 'home#auth'
+
   # Get login token from Knock
   post 'user_token', to: 'user_token#create'
 
