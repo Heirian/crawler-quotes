@@ -1,3 +1,6 @@
+# frozen_string_literal: true
+
+# Application main page
 class HomeController < ApplicationController
   before_action :authenticate_user, only: %i[auth]
 
