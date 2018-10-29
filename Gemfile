@@ -41,6 +41,8 @@ group :development, :test do
   gem 'factory_bot_rails', '~> 4.11', '>= 4.11.1'
   # Faker, a port of Data::Faker from Perl, is used to easily generate fake data: names, addresses, phone numbers, etc.
   gem 'faker', '~> 1.9', '>= 1.9.1'
+  # Extracting `assigns` and `assert_template` from ActionDispatch.
+  gem 'rails-controller-testing', '~> 1.0', '>= 1.0.2'
 end
 
 group :development do
