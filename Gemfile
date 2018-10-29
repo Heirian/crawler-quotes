@@ -21,7 +21,7 @@ gem 'bcrypt', '~> 3.1.7'
 gem 'bootsnap', '>= 1.1.0', require: false
 
 # Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin AJAX possible
-gem 'rack-cors', '~> 1.0', '>= 1.0.2'
+gem 'rack-cors', '~> 1.0', '>= 1.0.2', require: 'rack/cors'
 # Authentication solution for Rails based on JWT
 gem 'knock', '~> 2.1', '>= 2.1.1'
 # A pure ruby implementation of the RFC 7519 OAuth JSON Web Token (JWT) standard.
