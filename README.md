@@ -36,7 +36,7 @@ rails s -p 3000
 
 ## Utilização
 
-Para testar a aplicação use o postman -> https://www.getpostman.com/
+Para testar a aplicação use o [Postman](https://www.getpostman.com/)
 
 Primeiro crie o usuário através de um post para 'localhost:3000/users'
 
