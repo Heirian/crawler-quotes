@@ -73,7 +73,7 @@ Assim é só adiciona-lo ao header
   <img src="https://user-images.githubusercontent.com/26394609/47742973-9cc41c00-dc5c-11e8-8478-cde8763016ed.png" alt="Adicionando o token"/>
 </p>
 
-Com o token em mãos agora podemos pesquisar por 'quotes' através de tags
+Com o token em mãos agora podemos pesquisar por 'quotes' através de tags.
 Teste com a tag books através do link 'localhost:3000/quotes/books'
 
 <p align="center">
