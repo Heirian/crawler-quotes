@@ -9,4 +9,8 @@ class Quote
   validates :author, presence: true
   validates :author_about, presence: true
   validates :tags, presence: true
+
+  def serialize
+    serializable_hash(except: :_id)
+  end
 end

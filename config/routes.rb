@@ -8,5 +8,9 @@ Rails.application.routes.draw do
 
   # User actions
   post '/users', to: 'users#create'
+
+  # Quote actions
+  get '/quotes/:id', to: 'quotes#index'
+  get '/quotes', to: 'quotes#index'
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
