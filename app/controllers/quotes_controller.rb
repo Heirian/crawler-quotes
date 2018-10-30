@@ -1,3 +1,6 @@
+# frozen_string_literal: true
+
+# Quotes api
 class QuotesController < ApplicationController
   before_action :authenticate_user,  only: %i[index]
   before_action :ensure_quotes
