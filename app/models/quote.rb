@@ -1,3 +1,6 @@
+# frozen_string_literal: true
+
+# Quotes object
 class Quote
   include Mongoid::Document
   field :quote, type: String
