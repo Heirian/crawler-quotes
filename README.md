@@ -2,15 +2,15 @@
 
 ## Descrição
 
-Um simples buscador de frases do site http://quotes.toscrape.com/
+Um simples buscador de frases do site [Quotes to Scrape](http://quotes.toscrape.com/)
 
 ## Instalação
 
-Instale o Ruby on Rails -> https://gorails.com/setup
+Instale o [Ruby on Rails](https://gorails.com/setup)
 
-Instale o Mongodb -> https://docs.mongodb.com/manual/administration/install-community/
+Instale o [Mongodb](https://docs.mongodb.com/manual/administration/install-community/)
 
-Baixe o projeto através no terminal
+Baixe o projeto através do comando no terminal
 
 ```
 git clone https://github.com/Heirian/crawler-quotes.git
