@@ -13,9 +13,17 @@ class QuotesController < ApplicationController
 
   def ensure_quotes
     @quotes = if params[:id]
-                Quote.in(tags: [params[:id]])
+                Quote.in(tags: [params[:id]]).presence || factory
               else
                 Quote.all
               end
+  end
+
+  def factory
+    Quotes::Factory.make(web_search)
+  end
+
+  def web_search
+    Web::Crawler.new(params[:id]).bodies
   end
 end
