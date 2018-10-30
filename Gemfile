@@ -28,7 +28,8 @@ gem 'knock', '~> 2.1', '>= 2.1.1'
 gem 'jwt', '~> 1.5.6'
 # Mongoid is an ODM (Object Document Mapper) Framework for MongoDB, written in Ruby
 gem 'mongoid', '~> 7.0'
-
+# Nokogiri is an HTML, XML, SAX, and Reader parser. Among Nokogiri's many features is the ability to search documents via XPath or CSS3 selectors.
+gem 'nokogiri', '~> 1.8', '>= 1.8.5'
 # Automatic Ruby code style checking tool. Aims to enforce the community-driven Ruby Style Guide.
 gem 'rubocop', '~> 0.60.0', require: false
 
